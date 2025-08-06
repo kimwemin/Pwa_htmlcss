@@ -1,0 +1,12 @@
+.box1 {
+  border: solid 2px #a7a7a7;
+  line-height: 2rem;
+}
+ul {
+  list-style-type: none;
+}
+.sub-title {
+  color: #ad3000;
+  font-size: 1.5em;
+  font-weight: bold;
+}
