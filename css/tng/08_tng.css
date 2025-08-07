@@ -1,0 +1,27 @@
+div {
+  border: 1px solid #000;
+}
+.div-relative {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.div-relative>div {
+  width: 150px;
+  height: 150px;
+}
+.div-absolute-box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.div-absolute-box2 {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+.div-absolute-box3 {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  width: 550px;
+}
+.div-header {
+  background-color: #000000;
+  padding: 15px 13px 8px;
+  margin-bottom: 13px;
+}
+.div-header>h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.div-header>p {
+  color: #d4a300;
+  font-size: 0.8rem;
+}
+.cheak {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.div-main, .div-footer {
+  text-align: center;
+  border: 1px solid #b4b4b4;
+  padding-bottom: 15px;
+}
+.sub-title {
+  color: #e00000;
+  margin: 15px;
+}
+.div-centent {
+  line-height: 2rem;
+  font-weight: 700;
+}
+.emphasis {
+  color: #0000ff;
+}
+.counseling {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
