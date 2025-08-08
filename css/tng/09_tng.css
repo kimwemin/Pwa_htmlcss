@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+.container {
+  width: 550px;
+  height: 720px;
+  padding: 30px 20px;
+  margin: 5px auto;
+  background-color: #fff;
+  background-image: url(../../img/dambi.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom 1px right 1px;
+  background-size: 50%;
+  letter-spacing: 1px;
+}
+.div-header {
+  text-align: center;
+}
+.title {
+  padding: 15px;
+  background-color: #08413d;
+  color: #fff;
+  font-weight: 500;
+}
+.sub-title {
+  font-style: italic;
+  margin: 15px 0 40px;
+  font-weight: 450;
+}
+.content-title {
+  color: #c70000;
+}
+.content {
+  margin: 13px 40px;
+  line-height: 1.8rem;
+}
