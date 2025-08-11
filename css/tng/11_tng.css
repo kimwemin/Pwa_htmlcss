@@ -1,0 +1,68 @@
+/* background-img로 준 배경사진의 투명도를 조절하고 싶을 때 */
+/* .I-want-You {
+  position: relative;
+  width: 500px;
+  height: 355px;
+}
+.I-want-You::after {
+  position: absolute;
+  background-image: url(../../img/dambi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+} */
+.I-want-You {
+  width: 500px;
+  height: 355px;
+  background-image: url(../../img/dambi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+legend {
+  color: #ff15d8;
+  font-weight: 600;
+  font-size: 28px;
+}
+.I-want-You>div {
+  margin-bottom: 15px;
+}
+input, textarea {
+  /* background-color: initial;
+  background-color: transparent; */
+  background: none;
+}
+input:focus, textarea:focus {
+  border: 3px solid #ff0000;
+  outline: none;
+}
+.required-sign::before {
+  content: '*';
+  color: #ff0000;
+}
+.gender:checked + label {
+  color: #ff0000
+}
+.request-memo {
+  vertical-align: top;
+  line-height: 1;
+}
+textarea {
+  width: 250px;
+  height: 150px;
+}
+.submit-memo:hover::after {
+  content: '내용을 다시 한 번 확인해 주세요.';
+  padding: 0 5px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 80px;
+  background-color: #000000;
+  color: #ffffff;
+}
