@@ -1,0 +1,20 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+}
+
+/* 미디어쿼리는 항상 모든 코드의 아래에 있어야 오류가 나지 않는다. */
+@media (max-width: 500px) {
+  div {
+    background-color: #ff0000;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  div {
+    background-color: #7fffd4;
+  }
+}

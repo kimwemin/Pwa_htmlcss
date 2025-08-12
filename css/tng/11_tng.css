@@ -56,13 +56,17 @@ textarea {
   width: 250px;
   height: 150px;
 }
+.submit-memo {
+  position: relative;
+}
 .submit-memo:hover::after {
   content: '내용을 다시 한 번 확인해 주세요.';
+  width: 300px;
   padding: 0 5px;
   font-size: 20px;
   letter-spacing: 1px;
   position: absolute;
-  left: 80px;
+  left: 53px;
   background-color: #000000;
   color: #ffffff;
 }
