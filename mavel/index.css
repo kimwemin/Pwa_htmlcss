@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+/* sidebar */
+.sidebar {
+  background-color: #ff3b49;
+  color: #ffffff;
+}
+h1 {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+/* side-menu 드롭박스 X */
+.side-menu {
+  margin-bottom: 3rem;
+}
+.side-menu > li {
+  padding: 0.1rem 1rem;
+}
+.side-menu > li:first-child {
+  padding: 0.45rem 1rem;
+  background-color: #ff646f;
+  font-weight: 600;
+}
+.side-menu > li > a {
+  color: #ffffff;
+  width: 100%;
+  display: inline-block;
+}
+.side-menu > li:not(:first-child):hover {
+  background-color: #000;
+  transition: all 1.5s;
+}
+
+/* side-menu 드롭박스 O */
+.side-menu > h2 {
+  font-size: 1rem;
+  background-color: #ff646f;
+  padding: 0.45rem 1rem;
+}
+.menu-dropbox > li {
+  padding: 0.1rem 1rem;
+}
+.menu-dropbox > li:hover {
+  background-color: #000;
+  transition: all 1.5s;
+}
+.menu-dropbox > li > a {
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+
+.side-menu > h2 > label {
+  display: inline-block;
+  width: 100%;
+}
+.side-menu > h2 > label:hover {
+  cursor: pointer;
+}
+#menu-dropbox-01-flg {
+  display: none;
+}
+#menu-dropbox-01-flg:checked + .menu-dropbox {
+  display: block;
+}
+.menu-dropbox {
+  display: none;
+}
+
+/* main */
+.main {
+  background-color: #e1e1e1;
+}
+.search-bar {
+  height: 50px;
+}
+.search-bar > form {
+  display: flex;
+  padding: 5px 1rem;
+  justify-content: center;
+  gap: 25px;
+}
+#search {
+  width: 80%;
+  height: 40px;
+}
+.btn-search-submit {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #6e5af0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 40px;
+}
+
+.signboard {
+  height: 300px;
+  background-image: url(./img/main_title.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signboard-title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.main-content {
+  padding: 15px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.card {
+  background-color: #fff;
+  padding: 0.7rem;
+}
+.card-img {
+  padding-top: 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card > h3 {
+  margin: 0.5rem 0;
+  font-weight: 580;
+  font-size: 1.1rem;
+}
+.card > p {
+  font-size: 0.8rem;
+  color: #5a5a5a;
+}
+
+/* 기타 */
+.btn-move-top {
+  background-color: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 900;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+button:hover {
+  cursor: pointer;
+}
